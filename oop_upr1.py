@@ -10,7 +10,7 @@ class Car:
 
 cars = [Car("Toyota", "Corola", 1999), Car("Ford", "Mustang", 2000)]
 
-print(cars[0].year)
+print(cars[1].year, cars[1].brand)
 
 for car in cars:
     car.info()
