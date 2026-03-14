@@ -17,7 +17,7 @@ class Car:
     # Статичен метод
     @staticmethod
     def car_model():
-        print(f"Car Model: BMW {Car.car_color}")
+        print(f"Car Model: BMW")
 
     @property
     def color(self):
@@ -31,7 +31,7 @@ class Car:
 
 if __name__ == '__main__':
     my_car = Car("Orange")
-    my_car.color = ""
+    my_car.color = "Pink"
     my_car.print_color_1()
     # print(my_car.color)
     my_car.car_model()
